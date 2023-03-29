@@ -1,0 +1,23 @@
+{
+  "name": "proxyapi",
+  "version": "1.0.0",
+  "description": "Sistema de Api Proxy",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "jest"
+  },
+  "author": "Diogo Cani",
+  "license": "ISC",
+  "dependencies": {
+    "apicache-plus": "^2.3.1",
+    "axios": "^0.27.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "jest": "^29.0.3",
+    "supertest": "^6.2.4"
+  }
+}
